@@ -992,9 +992,9 @@ Node.js and NPM dependencies first::
   sudo apt-get install -y nodejs
 
 Install and configure Drive as follows:
-
-  cd
+  
   git clone https://github.com/dashevo/js-drive
+  
   cd js-drive
 
 Create a config file as follows::
