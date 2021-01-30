@@ -905,7 +905,7 @@ to communicate to the network that your node is working properly::
   venv/bin/python bin/sentinel.py
 
 You will see a message reading **dashd not synced with network! Awaiting
-full sync before running Sentinel.** Add dashd and sentinel to crontab
+full sync before running Sentinel.** Otherwise, check sentinel.conf for correct network and run again. Next add dashd and sentinel to crontab
 to make sure it runs every minute to check on your masternode::
 
   crontab -e
